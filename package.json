@@ -1,7 +1,7 @@
 {
-  "name": "react-native-compare-slider",
+  "name": "@hd76/react-native-compare-slider",
   "main": "index.ts",
-  "version": "0.0.8",
+  "version": "0.0.9",
   "description": "Compare slider for React Native. Compare any two components side by side.",
   "license": "MIT",
   "keywords": [
@@ -32,15 +32,15 @@
     "preset": "jest-expo"
   },
   "dependencies": {
-    "react-native-reanimated": "~2.1.0",
-    "react-native-gesture-handler": "^1.10.3"
+    "react-native-reanimated": "*",
+    "react-native-gesture-handler": "~2.14.0"
   },
   "peerDependencies": {
-    "react": "^16.13.1",
-    "react-native": "^0.63"
+    "react": "^18.2.0",
+    "react-native": "^0.73.6"
   },
   "devDependencies": {
-    "@babel/core": "^7.9.0",
+    "@babel/core": "^7.20.0",
     "@types/jest": "^26.0.23",
     "@types/react": "~16.9.35",
     "@types/react-native": "~0.63.2",
@@ -60,13 +60,13 @@
     "lint-staged": "^11.0.0",
     "prettier": "^2.3.1",
     "typescript": "~4.0.0",
-    "react-native-screens": "~3.0.0",
+    "react-native-screens": "~3.29.0",
     "react-native-maps": "0.29.0",
-    "@react-navigation/native": "~5.8.10",
-    "@react-navigation/stack": "~5.12.8",
-    "expo": "~41.0.1",
-    "react-native": "https://github.com/expo/react-native/archive/sdk-41.0.0.tar.gz",
-    "react": "^16.13.1"
+    "@react-navigation/native": "^6.1.17",
+    "@react-navigation/stack": "^6.3.29",
+    "expo": "~50.0.17",
+    "react-native": "0.73.6",
+    "react": "18.2.0"
   },
   "husky": {
     "hooks": {
@@ -75,5 +75,14 @@
   },
   "lint-staged": {
     "*.{ts,tsx}": "eslint"
-  }
+  },
+  "directories": {
+    "doc": "docs",
+    "example": "examples"
+  },
+  "author": "hd",
+  "bugs": {
+    "url": "https://github.com/taranisag/react-native-compare-slider/issues"
+  },
+  "homepage": "https://github.com/taranisag/react-native-compare-slider#readme"
 }
